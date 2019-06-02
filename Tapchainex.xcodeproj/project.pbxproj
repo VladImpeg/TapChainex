@@ -7,13 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F717D75818ACA3F1C1FC3E /* Pods_TapchainexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431BC37A9112A1815E0C3802 /* Pods_TapchainexUITests.framework */; };
+		8419BEE521B6C3C8001E5FC6 /* SFCompactDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8419BEE021B6C3C7001E5FC6 /* SFCompactDisplay-Medium.ttf */; };
+		8419BEE621B6C3C8001E5FC6 /* SFCompactDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8419BEE121B6C3C8001E5FC6 /* SFCompactDisplay-Bold.ttf */; };
+		8419BEE721B6C3C8001E5FC6 /* SFCompactDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8419BEE221B6C3C8001E5FC6 /* SFCompactDisplay-Black.ttf */; };
+		8419BEE821B6C3C8001E5FC6 /* SFCompactDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8419BEE321B6C3C8001E5FC6 /* SFCompactDisplay-Regular.ttf */; };
+		8419BEE921B6C3C8001E5FC6 /* SFCompactDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8419BEE421B6C3C8001E5FC6 /* SFCompactDisplay-Semibold.otf */; };
+		84510BFC21AD75F00018F857 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84510BFB21AD75F00018F857 /* HomeViewController.swift */; };
+		8455715921B14E010052B8CD /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455715821B14E010052B8CD /* ForgotPasswordViewController.swift */; };
+		8480591A21B50B660052F0B9 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480591821B50B660052F0B9 /* SettingsTableViewCell.swift */; };
+		8480591D21B5476C0052F0B9 /* ThemeColorModeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8480591C21B5476C0052F0B9 /* ThemeColorModeCollectionViewCell.xib */; };
+		8480592021B5542A0052F0B9 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480591F21B5542A0052F0B9 /* NewsViewController.swift */; };
+		8480592321B554DF0052F0B9 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480592121B554DE0052F0B9 /* NewsTableViewCell.swift */; };
+		8480592421B554DF0052F0B9 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8480592221B554DF0052F0B9 /* NewsTableViewCell.xib */; };
+		848E65EE21B449280037F35D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E65EC21B449280037F35D /* SettingsTableViewController.swift */; };
+		848E65F221B44EA50037F35D /* ThemeColorModeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E65F021B44EA50037F35D /* ThemeColorModeCollectionViewCell.swift */; };
+		84CC18FE21B1A0B900676FF7 /* WalletLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC18FD21B1A0B900676FF7 /* WalletLoginViewController.swift */; };
 		84E452EB21A4081F001154C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E452EA21A4081F001154C8 /* AppDelegate.swift */; };
-		84E452ED21A4081F001154C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E452EC21A4081F001154C8 /* ViewController.swift */; };
+		84E452ED21A4081F001154C8 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E452EC21A4081F001154C8 /* StartViewController.swift */; };
 		84E452F021A4081F001154C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E452EE21A4081F001154C8 /* Main.storyboard */; };
 		84E452F221A40821001154C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E452F121A40821001154C8 /* Assets.xcassets */; };
 		84E452F521A40821001154C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E452F321A40821001154C8 /* LaunchScreen.storyboard */; };
 		84E4530021A40821001154C8 /* TapchainexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E452FF21A40821001154C8 /* TapchainexTests.swift */; };
 		84E4530B21A40821001154C8 /* TapchainexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4530A21A40821001154C8 /* TapchainexUITests.swift */; };
+		84F716DF21A7E1010048BCB1 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F716DE21A7E1010048BCB1 /* UIExtensions.swift */; };
+		84F716E521A807410048BCB1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F716E421A807410048BCB1 /* LogInViewController.swift */; };
+		84F716E721A9668D0048BCB1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F716E621A9668D0048BCB1 /* SignUpViewController.swift */; };
+		86D0539A390ED537F4B74B99 /* Pods_Tapchainex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2FDD34DE5762830DFD52C4 /* Pods_Tapchainex.framework */; };
+		B4FD2C41C348D35882BEF56C /* Pods_TapchainexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA6E59DFE09FE544687F1BE /* Pods_TapchainexTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +55,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F77DADC9B2004766013D467 /* Pods-Tapchainex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapchainex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tapchainex/Pods-Tapchainex.release.xcconfig"; sourceTree = "<group>"; };
+		282B483ABB44043DF9E00024 /* Pods-TapchainexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapchainexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapchainexTests/Pods-TapchainexTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BA6E59DFE09FE544687F1BE /* Pods_TapchainexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapchainexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431BC37A9112A1815E0C3802 /* Pods_TapchainexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapchainexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F544007ACDB889E2ED1108 /* Pods-Tapchainex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapchainex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tapchainex/Pods-Tapchainex.debug.xcconfig"; sourceTree = "<group>"; };
+		74394D44DC14A18D6AC02073 /* Pods-TapchainexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapchainexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapchainexUITests/Pods-TapchainexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8419BEE021B6C3C7001E5FC6 /* SFCompactDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		8419BEE121B6C3C8001E5FC6 /* SFCompactDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		8419BEE221B6C3C8001E5FC6 /* SFCompactDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Black.ttf"; sourceTree = "<group>"; };
+		8419BEE321B6C3C8001E5FC6 /* SFCompactDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		8419BEE421B6C3C8001E5FC6 /* SFCompactDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		84510BF721AD171C0018F857 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84510BFB21AD75F00018F857 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8455715821B14E010052B8CD /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8480591821B50B660052F0B9 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		8480591C21B5476C0052F0B9 /* ThemeColorModeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeColorModeCollectionViewCell.xib; sourceTree = "<group>"; };
+		8480591F21B5542A0052F0B9 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		8480592121B554DE0052F0B9 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		8480592221B554DF0052F0B9 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		848E65EC21B449280037F35D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		848E65F021B44EA50037F35D /* ThemeColorModeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColorModeCollectionViewCell.swift; sourceTree = "<group>"; };
+		84CC18FD21B1A0B900676FF7 /* WalletLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletLoginViewController.swift; sourceTree = "<group>"; };
 		84E452E721A4081F001154C8 /* Tapchainex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapchainex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E452EA21A4081F001154C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84E452EC21A4081F001154C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E452EC21A4081F001154C8 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		84E452EF21A4081F001154C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E452F121A40821001154C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E452F421A40821001154C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +90,12 @@
 		84E4530621A40821001154C8 /* TapchainexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapchainexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E4530A21A40821001154C8 /* TapchainexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapchainexUITests.swift; sourceTree = "<group>"; };
 		84E4530C21A40821001154C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F716DE21A7E1010048BCB1 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		84F716E421A807410048BCB1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		84F716E621A9668D0048BCB1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8F2FDD34DE5762830DFD52C4 /* Pods_Tapchainex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapchainex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFA34D06F50861378CA3532 /* Pods-TapchainexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapchainexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapchainexUITests/Pods-TapchainexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4F9F2838EEBC9D7597E5E59 /* Pods-TapchainexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapchainexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapchainexTests/Pods-TapchainexTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D0539A390ED537F4B74B99 /* Pods_Tapchainex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FD2C41C348D35882BEF56C /* Pods_TapchainexTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +119,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F717D75818ACA3F1C1FC3E /* Pods_TapchainexUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1C70F5695A48C0A27612EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84510BF721AD171C0018F857 /* SwiftyJSON.framework */,
+				8F2FDD34DE5762830DFD52C4 /* Pods_Tapchainex.framework */,
+				3BA6E59DFE09FE544687F1BE /* Pods_TapchainexTests.framework */,
+				431BC37A9112A1815E0C3802 /* Pods_TapchainexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		843F015A21AE941400F98370 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8455715521AFE5C80052B8CD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8480591E21B553C20052F0B9 /* NewsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8480591F21B5542A0052F0B9 /* NewsViewController.swift */,
+				8480592121B554DE0052F0B9 /* NewsTableViewCell.swift */,
+				8480592221B554DF0052F0B9 /* NewsTableViewCell.xib */,
+			);
+			path = NewsScreen;
+			sourceTree = "<group>";
+		};
+		848E65F421B451510037F35D /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				848E65EC21B449280037F35D /* SettingsTableViewController.swift */,
+				848E65F021B44EA50037F35D /* ThemeColorModeCollectionViewCell.swift */,
+				8480591C21B5476C0052F0B9 /* ThemeColorModeCollectionViewCell.xib */,
+				8480591821B50B660052F0B9 /* SettingsTableViewCell.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
 		84E452DE21A4081F001154C8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +179,8 @@
 				84E452FE21A40821001154C8 /* TapchainexTests */,
 				84E4530921A40821001154C8 /* TapchainexUITests */,
 				84E452E821A4081F001154C8 /* Products */,
+				E49A97168AD3381023F96277 /* Pods */,
+				0F1C70F5695A48C0A27612EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +197,22 @@
 		84E452E921A4081F001154C8 /* Tapchainex */ = {
 			isa = PBXGroup;
 			children = (
+				8455715521AFE5C80052B8CD /* Managers */,
+				843F015A21AE941400F98370 /* Models */,
+				84F716DD21A7E0E30048BCB1 /* Extensions */,
 				84E452EA21A4081F001154C8 /* AppDelegate.swift */,
-				84E452EC21A4081F001154C8 /* ViewController.swift */,
+				84510BFB21AD75F00018F857 /* HomeViewController.swift */,
+				8480591E21B553C20052F0B9 /* NewsScreen */,
+				848E65F421B451510037F35D /* SettingsScreen */,
+				84F716E321A806310048BCB1 /* LogInScreens */,
 				84E452EE21A4081F001154C8 /* Main.storyboard */,
 				84E452F121A40821001154C8 /* Assets.xcassets */,
 				84E452F321A40821001154C8 /* LaunchScreen.storyboard */,
+				8419BEE221B6C3C8001E5FC6 /* SFCompactDisplay-Black.ttf */,
+				8419BEE121B6C3C8001E5FC6 /* SFCompactDisplay-Bold.ttf */,
+				8419BEE021B6C3C7001E5FC6 /* SFCompactDisplay-Medium.ttf */,
+				8419BEE321B6C3C8001E5FC6 /* SFCompactDisplay-Regular.ttf */,
+				8419BEE421B6C3C8001E5FC6 /* SFCompactDisplay-Semibold.otf */,
 				84E452F621A40821001154C8 /* Info.plist */,
 			);
 			path = Tapchainex;
@@ -125,6 +236,39 @@
 			path = TapchainexUITests;
 			sourceTree = "<group>";
 		};
+		84F716DD21A7E0E30048BCB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84F716DE21A7E1010048BCB1 /* UIExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84F716E321A806310048BCB1 /* LogInScreens */ = {
+			isa = PBXGroup;
+			children = (
+				84E452EC21A4081F001154C8 /* StartViewController.swift */,
+				84F716E421A807410048BCB1 /* LogInViewController.swift */,
+				84F716E621A9668D0048BCB1 /* SignUpViewController.swift */,
+				8455715821B14E010052B8CD /* ForgotPasswordViewController.swift */,
+				84CC18FD21B1A0B900676FF7 /* WalletLoginViewController.swift */,
+			);
+			path = LogInScreens;
+			sourceTree = "<group>";
+		};
+		E49A97168AD3381023F96277 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46F544007ACDB889E2ED1108 /* Pods-Tapchainex.debug.xcconfig */,
+				1F77DADC9B2004766013D467 /* Pods-Tapchainex.release.xcconfig */,
+				A4F9F2838EEBC9D7597E5E59 /* Pods-TapchainexTests.debug.xcconfig */,
+				282B483ABB44043DF9E00024 /* Pods-TapchainexTests.release.xcconfig */,
+				9FFA34D06F50861378CA3532 /* Pods-TapchainexUITests.debug.xcconfig */,
+				74394D44DC14A18D6AC02073 /* Pods-TapchainexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E4530F21A40821001154C8 /* Build configuration list for PBXNativeTarget "Tapchainex" */;
 			buildPhases = (
+				DDEF3576B46168162DB729C4 /* [CP] Check Pods Manifest.lock */,
 				84E452E321A4081F001154C8 /* Sources */,
 				84E452E421A4081F001154C8 /* Frameworks */,
 				84E452E521A4081F001154C8 /* Resources */,
+				573E4784B446DE54EA7DF317 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E4531221A40821001154C8 /* Build configuration list for PBXNativeTarget "TapchainexTests" */;
 			buildPhases = (
+				5AF25A452438076DDCE8DDA3 /* [CP] Check Pods Manifest.lock */,
 				84E452F721A40821001154C8 /* Sources */,
 				84E452F821A40821001154C8 /* Frameworks */,
 				84E452F921A40821001154C8 /* Resources */,
@@ -167,6 +314,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E4531521A40821001154C8 /* Build configuration list for PBXNativeTarget "TapchainexUITests" */;
 			buildPhases = (
+				C54410CB7357D7165F98346F /* [CP] Check Pods Manifest.lock */,
 				84E4530221A40821001154C8 /* Sources */,
 				84E4530321A40821001154C8 /* Frameworks */,
 				84E4530421A40821001154C8 /* Resources */,
@@ -230,8 +378,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E452F521A40821001154C8 /* LaunchScreen.storyboard in Resources */,
+				8419BEE621B6C3C8001E5FC6 /* SFCompactDisplay-Bold.ttf in Resources */,
 				84E452F221A40821001154C8 /* Assets.xcassets in Resources */,
 				84E452F021A4081F001154C8 /* Main.storyboard in Resources */,
+				8480591D21B5476C0052F0B9 /* ThemeColorModeCollectionViewCell.xib in Resources */,
+				8480592421B554DF0052F0B9 /* NewsTableViewCell.xib in Resources */,
+				8419BEE721B6C3C8001E5FC6 /* SFCompactDisplay-Black.ttf in Resources */,
+				8419BEE521B6C3C8001E5FC6 /* SFCompactDisplay-Medium.ttf in Resources */,
+				8419BEE921B6C3C8001E5FC6 /* SFCompactDisplay-Semibold.otf in Resources */,
+				8419BEE821B6C3C8001E5FC6 /* SFCompactDisplay-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +406,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		573E4784B446DE54EA7DF317 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tapchainex/Pods-Tapchainex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tapchainex/Pods-Tapchainex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF25A452438076DDCE8DDA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapchainexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54410CB7357D7165F98346F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapchainexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDEF3576B46168162DB729C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tapchainex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E452E321A4081F001154C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E452ED21A4081F001154C8 /* ViewController.swift in Sources */,
+				84F716E721A9668D0048BCB1 /* SignUpViewController.swift in Sources */,
+				84CC18FE21B1A0B900676FF7 /* WalletLoginViewController.swift in Sources */,
+				8480591A21B50B660052F0B9 /* SettingsTableViewCell.swift in Sources */,
+				8480592021B5542A0052F0B9 /* NewsViewController.swift in Sources */,
+				8480592321B554DF0052F0B9 /* NewsTableViewCell.swift in Sources */,
+				84F716DF21A7E1010048BCB1 /* UIExtensions.swift in Sources */,
+				848E65EE21B449280037F35D /* SettingsTableViewController.swift in Sources */,
+				84E452ED21A4081F001154C8 /* StartViewController.swift in Sources */,
+				84F716E521A807410048BCB1 /* LogInViewController.swift in Sources */,
+				84510BFC21AD75F00018F857 /* HomeViewController.swift in Sources */,
+				848E65F221B44EA50037F35D /* ThemeColorModeCollectionViewCell.swift in Sources */,
+				8455715921B14E010052B8CD /* ForgotPasswordViewController.swift in Sources */,
 				84E452EB21A4081F001154C8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,42 +673,47 @@
 		};
 		84E4531021A40821001154C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F544007ACDB889E2ED1108 /* Pods-Tapchainex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G8S6X8B5D2;
+				DEVELOPMENT_TEAM = YEKC9295K6;
 				INFOPLIST_FILE = Tapchainex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = monitoring.Tapchainex;
+				PRODUCT_BUNDLE_IDENTIFIER = tapcainex.id;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		84E4531121A40821001154C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F77DADC9B2004766013D467 /* Pods-Tapchainex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G8S6X8B5D2;
+				DEVELOPMENT_TEAM = YEKC9295K6;
 				INFOPLIST_FILE = Tapchainex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = monitoring.Tapchainex;
+				PRODUCT_BUNDLE_IDENTIFIER = tapcainex.id;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		84E4531321A40821001154C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F9F2838EEBC9D7597E5E59 /* Pods-TapchainexTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +735,7 @@
 		};
 		84E4531421A40821001154C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282B483ABB44043DF9E00024 /* Pods-TapchainexTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +757,7 @@
 		};
 		84E4531621A40821001154C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FFA34D06F50861378CA3532 /* Pods-TapchainexUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +778,7 @@
 		};
 		84E4531721A40821001154C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74394D44DC14A18D6AC02073 /* Pods-TapchainexUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
